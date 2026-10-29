@@ -474,6 +474,11 @@ st.markdown(
 )
 
 
+st.info(
+    "✨ UI designed with AI assistance using Streamlit.",
+    icon="🎨"
+)
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
