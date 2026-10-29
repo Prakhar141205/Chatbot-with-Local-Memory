@@ -81,3 +81,7 @@ The app sends the system prompt, the conversation history, and the latest messag
 - `memory.py` — in-memory conversation history helper
 - `chatbot_with_memory.py` — separate command-line prototype
 - `requirements.txt` — Python dependencies
+
+
+## Note: 
+- The user interface of this mini-project was developed with the assistance of AI tools using Streamlit.
