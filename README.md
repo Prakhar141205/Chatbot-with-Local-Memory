@@ -1,7 +1,8 @@
 # Chatbot with Memory
 
 A small Streamlit chatbot that includes the current conversation in each request, allowing the model to refer back to earlier messages in the same session. It supports OpenAI, Google Gemini, and a locally running Ollama model.
-
+## Project demo:
+### Link: https://wrosqtccuysk5trafacggl.streamlit.app/
 ## Requirements
 
 - Python 3.10 or newer
