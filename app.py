@@ -15,7 +15,7 @@ import llm_client
 # --------------------------------------------------
 
 st.set_page_config(
-    page_title="Nexus AI | Chat with Memory",
+    page_title="Memora AI | Chat with Memory",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -369,7 +369,7 @@ with st.sidebar:
         <div class="brand">
             <div class="brand-icon">🤖</div>
             <div>
-                <div class="brand-name">Nexus AI</div>
+                <div class="brand-name">Memora AI</div>
                 <div class="brand-subtitle">Intelligent Chat</div>
             </div>
         </div>
@@ -436,7 +436,7 @@ with st.sidebar:
     st.markdown("---")
 
     st.caption("Built with Streamlit & LangChain")
-    st.caption("Nexus AI · Mini Project")
+    st.caption("Memora AI · Mini Project")
 
 
 # --------------------------------------------------
@@ -569,7 +569,7 @@ for index, message in enumerate(st.session_state.messages):
 pending_prompt = st.session_state.pop("pending_prompt", None)
 
 user_input = st.chat_input(
-    "Message Nexus AI...",
+    "Message Memora AI...",
     key="chat_input"
 )
 
@@ -585,7 +585,7 @@ if user_input and user_input.strip():
         st.markdown(user_input)
         st.caption(datetime.now().strftime("%I:%M %p"))
 
-    with st.spinner("Nexus AI is thinking..."):
+    with st.spinner("us AI is thinking..."):
 
         try:
             reply = llm_client.get_llm_response(
@@ -631,7 +631,7 @@ if user_input and user_input.strip():
 st.markdown(
     """
     <div class="footer">
-        NEXUS AI · POWERED BY LANGCHAIN & STREAMLIT
+        MEMORA AI · POWERED BY LANGCHAIN & STREAMLIT
         <br><br>
         Your conversation history stays in the current Streamlit session.
     </div>
